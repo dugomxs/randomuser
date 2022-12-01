@@ -1,0 +1,57 @@
+* {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Poppins', monospace;
+
+}
+
+body {
+  background-color: rgba(8, 8, 8, 0.902);
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid #04A56A;
+  padding: 5px
+}
+
+title {
+  display: none;
+}
+
+.tooltip {
+  background: rgba(24, 24, 24, 0.698);
+  padding: 15px;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 30px 0 32rem 0;
+}
+
+.tooltip:hover {
+  background: #04A56A;
+}
+
+.name, .gender, .cell, .country {
+  color: white;
+  font-weight: 400;
+  line-height: 0;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row !important;
+  gap: 2rem;
+}
+
+svg{
+  fill: white;
+}
+
+svg:hover {
+  transition: 0.6s;
+  fill: #04A56A;
+}
